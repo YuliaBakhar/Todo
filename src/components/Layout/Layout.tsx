@@ -1,9 +1,10 @@
 import React, { FC } from "react";
+import { Header } from "../header";
 
 const Layout: FC = ({ children }) => {
   return (
     <div>
-      Layout
+      <Header />
       <>{children}</>
     </div>
   );

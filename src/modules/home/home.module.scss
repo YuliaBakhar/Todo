@@ -1,9 +1,11 @@
+@import "../../styles/variables.scss";
+
 .container {
   width: 100%;
   height: calc(100vh - 68px);
   padding: 20px;
 
-  background: #f2f2f2;
+  background: $dirty-white;
 }
 
 .content {

@@ -1,0 +1,9 @@
+.list {
+  width: 100%;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

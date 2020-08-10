@@ -23,10 +23,19 @@
     &::placeholder {
       color: #bdbdbd;
     }
+
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
   }
 }
 
 .icon {
   width: 24px;
   height: 24px;
+
+  @media (min-width: 768px) {
+    width: 36px;
+    height: 36px;
+  }
 }

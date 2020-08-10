@@ -1,0 +1,66 @@
+.todo {
+  margin-top: 12px;
+  padding: 16px;
+
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0416667);
+  border-radius: 3px;
+  font-weight: 500;
+
+  @media (min-width: 768px) {
+    width: calc(50% - 16px);
+  }
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  fill: #e0e0e0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleWrap {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  display: inline;
+
+  margin-left: 8px;
+
+  font-size: 14px;
+  color: #050505;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 28px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  color: #979797;
+}
+
+.favorite {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.trash {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  fill: #eb5757;
+}
